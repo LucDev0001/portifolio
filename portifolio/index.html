@@ -1,59 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <!-- Meta Tags para SEO -->
-  <meta name="description"
-    content="Portfólio de um desenvolvedor Front-End. Conheça meus projetos, habilidades e entre em contato.">
-  <meta name="keywords"
-    content="desenvolvedor, front-end, portfólio, web, projetos, HTML, CSS, JavaScript, GitHub, LinkedIn">
-  <meta name="author" content="Luciano Dev">
-  <meta name="robots" content="index, follow">
-
-  <!-- Open Graph Meta Tags (para redes sociais) -->
-  <meta property="og:title" content="Portfólio - Desenvolvedor Front-End">
-  <meta property="og:description"
-    content="Portfólio de um desenvolvedor Front-End. Conheça meus projetos, habilidades e entre em contato.">
-  <meta property="og:image" content="https://1drv.ms/i/s!AuXzDxT5CG8dh48tP2OxuhcVgys5gg?e=qcd4m2">
-  <meta property="og:url" content="lucianodevfrontend.netlify.app">
-  <meta property="og:type" content="website">
-
-
-  <!-- Title of the page -->
-  <title>Luciano Dev - Desenvolvedor Front-End</title>
-
-  <!-- Bootstrap 5 CSS -->
+  <title>Luciano Severino dos Santos- Desenvolvedor Front-End</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- AOS (Animate on Scroll) CSS -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
-  <!-- FontAwesome 6 CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;500&display=swap"
-    rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
-<!-- Contêiner para o efeito de partículas -->
-<div id="particles-js"></div>
-
-
 <body>
-
-
-  <!-- Navbar -->
+  <div id="particles-js"></div>
+  
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Luciano Dev</a>
+      <a class="navbar-brand" href="#">Luciano Severino dos Santos</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -69,311 +32,278 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
   <div class="hero" data-aos="fade-up">
-    <h1>Olá, sou um Desenvolvedor Front-End</h1>
-    <p>Construindo soluções incríveis com HTML, CSS, JavaScript</p>
+    <h1>Olá, eu sou Luciano</h1>
+    <p>Desenvolvedor Front-End focado em criar experiências digitais incríveis.</p>
   </div>
-
-  <!-- About Section -->
+  
   <section id="about" class="container py-5" data-aos="fade-up">
     <h2 class="section-title">Sobre Mim</h2>
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-lg-6">
-        <p>Sou Luciano Severino Santos, estudante de Análise e Desenvolvimento de Sistemas na UVA, com foco em
-          Desenvolvimento Web. Tenho experiência em HTML, CSS, JavaScript, Git/GitHub, e Java (Spring Boot), além de
-          certificações em Desenvolvimento Web e Programação Java pela Alura.
-
-          Minha experiência profissional inclui funções de gestão e atendimento ao cliente, com destaque como
-          Assistente
-          de Gerente em empresas do setor alimentício. Também participei da Olimpíada Brasileira de Robótica e de uma
-          palestra SEBRAE sobre franquias.
-
-          Busco uma oportunidade na área de TI para aplicar e expandir meus conhecimentos em desenvolvimento web.</p>
+        <p class="about-text">
+          Olá! Sou <strong>Luciano Severino Santos</strong>, um desenvolvedor Front-End apaixonado por criar experiências digitais intuitivas e bonitas. Minha jornada na tecnologia começou com a transição de uma carreira em gestão e atendimento ao cliente. Essa experiência me ensinou a importância da comunicação e da resolução de problemas, habilidades que hoje aplico na construção de soluções web.
+        </p>
+        <p class="about-text">
+          Atualmente, sou estudante de Análise e Desenvolvimento de Sistemas. Meus conhecimentos incluem <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Java (Spring Boot)</strong>, <strong>Git/GitHub</strong> e metodologias ágeis. Estou sempre em busca de novos desafios para aplicar o que sei e crescer como profissional.
+        </p>
       </div>
-      <div class="col-lg-6 text-center">
-        <img src="profile.jpg" class="img-fluid rounded-circle" alt="Foto do Desenvolvedor" data-aos="fade-left">
+      <div class="col-lg-6 text-center mt-4 mt-lg-0">
+        <img src="profile.jpg" class="img-fluid rounded-circle about-img" alt="Foto do Desenvolvedor" data-aos="fade-left">
       </div>
     </div>
   </section>
-
-
-
-  <!-- Projects Section -->
+  
   <section id="projects" class="bg-light py-5" data-aos="fade-up">
     <h2 class="section-title">Meus Projetos</h2>
     <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card-body">
-              <h5 class="card-title">Jogo de Adivinhação: Adivinhe o Número Entre 1 e 10 | Desafio Interativo em
-                JavaScript</h5>
-              <p class="card-text">
-                Jogo de Adivinhação: Tente acertar o número aleatório entre 1 e 10 gerado pelo
-                sistema.
-                Interação Simples: O jogador escolhe um número, clica no botão "Chutar" e vê se acertou.
-                Reiniciar Jogo: Após cada tentativa, você pode reiniciar o jogo para tentar novamente.
-                Narração em Tempo Real: O sistema narra o texto, criando uma experiência imersiva e divertida.
-                Design Responsivo: A interface é simples e se adapta a diferentes dispositivos para uma experiência
-                melhor.
-                Este jogo interativo é uma ótima maneira de aprender e se divertir com o JavaScript de forma prática.
-              </p>
-              <div class="video-container mb-3">
-                <iframe width="100%" height="200" src="jogo em java script ‐ Feito com o Clipchamp.mp4" s
-                  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Jogo de Adivinhação</h5>
+              <p class="card-text">Um jogo interativo em JavaScript que gera um número aleatório para você adivinhar.</p>
+              <div class="project-img-container mb-3">
+                <img src="jogo.png" alt="Capa do projeto de Adivinhação" class="img-fluid project-cover-img">
               </div>
-              <a href="https://lucdev0001.github.io/js-game/" target="_blank" class="btn btn-primary">Ver Projeto</a>
+              <button class="btn btn-primary mt-auto project-btn" data-url="https://lucdev0001.github.io/js-game/">Ver Projeto</button>
             </div>
           </div>
         </div>
-
-        <!-- Projeto 2 -->
-        <div class="col-md-4">
-          <div class="card" data-aos="zoom-in" data-aos-delay="200">
-
-            <div class="card-body">
-              <h5 class="card-title">Criptografe e Descriptografe Mensagens Online | Ferramenta Simples : HTML + CSS +
-                JAVASCRIPT</h5>
-              <p class="card-text">Criptografia de Texto: Transforme sua mensagem em código secreto de maneira rápida.
-                Descriptografia de Texto: Revele mensagens cifradas e descubra o que está oculto.
-                Interface Simples: Design intuitivo para facilitar o uso e a compreensão.
-                Copia para a área de transferência: Copie suas mensagens criptografadas ou descriptografadas com um
-                clique.
-                Mensagem de Alerta: Aviso sobre o uso de apenas letras minúsculas e sem acento.
-                Este site é ideal para quem busca uma ferramenta de criptografia prática e rápida para mensagens
-                simples
-                e seguras.</p>
-              <div class="video-container mb-3">
-                <iframe width="100%" height="200" src="Decodificador de texto.mp4" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Criptografia de Texto</h5>
+              <p class="card-text">Uma ferramenta simples para criptografar e descriptografar mensagens online.</p>
+              <div class="project-img-container mb-3">
+                <img src="criptograifa.png" alt="Capa do projeto de Criptografia" class="img-fluid project-cover-img">
               </div>
-              <a href="https://lucdev0001.github.io/Decodificador-de-Texto/" class="btn btn-primary">Ver Projeto</a>
+              <button class="btn btn-primary mt-auto project-btn" data-url="https://lucdev0001.github.io/Decodificador-de-Texto/">Ver Projeto</button>
             </div>
           </div>
         </div>
-
-        <!-- Projeto 3 -->
-        <div class="col-md-4">
-          <div class="card" data-aos="zoom-in" data-aos-delay="300">
-            <div class="card-body">
-              <h5 class="card-title">Calcule Seus Ganhos de Entregas de Moto: Simples e Rápido HTML + CSS + JAVA
-                SCRIPT
-              </h5>
-              <p class="card-text">Cálculo de ganhos diários com base na diária e taxa informada.
-                Campos para registrar a quantidade de entregas feitas em cada dia da semana.
-                Cálculo de valores totais, incluindo a soma da taxa e diária.
-                Função para adicionar valores extras de acordo com entregas especiais.
-                Design simples e fácil de usar, ideal para entregadores de moto.
-                Aprenda a criar esse site útil e otimizar o controle dos seus ganhos semanais!</p>
-              <div class="video-container mb-3">
-                <iframe width="100%" height="200" src="Calcular Diaria de moto.mp4" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100" data-aos="zoom-in" data-aos-delay="300">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Cálculo de Ganhos de Entregas</h5>
+              <p class="card-text">Uma aplicação para motoboys calcularem seus ganhos semanais de forma rápida.</p>
+              <div class="project-img-container mb-3">
+                <img src="ganhosentrega.png" alt="Capa do projeto de Entregas" class="img-fluid project-cover-img">
               </div>
-              <a href="https://calculadordediariademoto.vercel.app/" class="btn btn-primary">Ver Projeto</a>
+              <button class="btn btn-primary mt-auto project-btn" data-url="https://calculadordediariademoto.vercel.app/">Ver Projeto</button>
             </div>
           </div>
         </div>
-
-
-        <!--projeot 4-->
-        <div class="col-md-4">
-          <div class="card" data-aos="zoom-in" data-aos-delay="300">
-
-            <div class="card-body">
-              <h5 class="card-title">Portfólio de Tatuagens: Como Criar um Site Simples e Elegante HTML + CSS +
-                JAVASCRIPT
-              </h5>
-              <p class="card-text">Tela de carregamento com animação.
-                Links de contato: integração com Instagram e WhatsApp.
-                Galeria de imagens para exibir os trabalhos de tatuagem.
-                Citação inspiradora na página de perfil.
-                Design responsivo e foco em uma experiência visual atraente.
-                Assista e aprenda a criar um site de portfólio incrível para tatuadores ou artistas!</p>
-              <div class="video-container mb-3">
-                <iframe width="100%" height="200" src="tattoo.mp4" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100" data-aos="zoom-in" data-aos-delay="400">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Portfólio de Tatuagens</h5>
+              <p class="card-text">Um site de portfólio elegante com galeria de imagens para artistas.</p>
+              <div class="project-img-container mb-3">
+                <img src="tatuagem.png" alt="Capa do projeto de Tatuagens" class="img-fluid project-cover-img">
               </div>
-              <a href="https://porttatoojeni.vercel.app/" class="btn btn-primary">Ver Projeto</a>
+              <button class="btn btn-primary mt-auto project-btn" data-url="https://porttatoojeni.vercel.app/">Ver Projeto</button>
             </div>
           </div>
         </div>
-
-
-        <!--projeot 5-->
-        <div class="col-md-4">
-          <div class="card" data-aos="zoom-in" data-aos-delay="300">
-
-            <div class="card-body">
-              <h5 class="card-title"> Quiz Interativo com Timer e Modal | Tutorial Completo : HTML + CSS + JACASCRIPT
-              </h5>
-              <p class="card-text">Implementação de um timer de contagem regressiva.
-                Modal personalizado para exibir mensagens.
-                Navegação entre as questões com botões de "próximo" e "voltar".
-                Finalização de prova com a opção de sair a qualquer momento.
-                Estrutura de HTML, CSS e integração com JavaScript para dinamismo.
-                Assista ao vídeo e crie seu próprio quiz interativo!</p>
-              <div class="video-container mb-3">
-                <iframe width="100%" height="200" src="quiz app.mp4" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100" data-aos="zoom-in" data-aos-delay="500">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Arpia SST Website</h5>
+              <p class="card-text">Desenvolvimento de um website institucional moderno para a Arpia SST, focado em segurança e saúde no trabalho, com design responsivo e informativo.</p>
+              <div class="project-img-container mb-3">
+                <img src="arpiasst.png" alt="Capa do projeto de Quiz" class="img-fluid project-cover-img">
               </div>
-              <a href="https://github.com/LucDev0001/quiz-app" class="btn btn-primary">Ver Projeto</a>
+              <a href="https://lucdev0001.github.io/arpia-sst-website/" target="_blank" class="btn btn-primary mt-auto">Ver Projeto</a>
             </div>
           </div>
         </div>
-        <!--projeto 6-->
-        <div class="col-md-4">
-          <div class="card" data-aos="zoom-in" data-aos-delay="300">
-            <div class="card-body">
-              <h5 class="card-title">Timer com Contagem Regressiva HTML + CSS + JAVASCRIPT
-              </h5>
-              <p class="card-text">Definição de Tempo: O usuário pode selecionar minutos e segundos através de menus
-                suspensos.
-                Contagem Regressiva: Inicia uma contagem regressiva que atualiza a cada segundo.
-                Visualização Gráfica: Utiliza CSS para rotacionar as mãos do relógio conforme o tempo avança.
-                Alerta Sonoro: Um alerta sonoro é acionado quando o tempo se esgota.</p>
-              <div class="video-container mb-3">
-                <iframe width="100%" height="200" src="Cronometro.mp4" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100" data-aos="zoom-in" data-aos-delay="600">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Timer de Contagem Regressiva</h5>
+              <p class="card-text">Um timer funcional com alerta sonoro e visual em forma de relógio.</p>
+              <div class="project-img-container mb-3">
+                <img src="timer.png" alt="Capa do projeto de Timer" class="img-fluid project-cover-img">
               </div>
-              <a href="https://lucdev0001.github.io/timer-com-contagem-regressiva/" class="btn btn-primary">Ver
-                Projeto</a>
+              <button class="btn btn-primary mt-auto project-btn" data-url="https://lucdev0001.github.io/timer-com-contagem-regressiva/">Ver Projeto</button>
             </div>
           </div>
         </div>
-
-        <!--projeto 5-->
-        <div class="col-md-4">
-          <div class="card" data-aos="zoom-in" data-aos-delay="300">
-            <div class="card-body">
-              <h5 class="card-title">CriptoFlow Aprenda a Investir em Criptomoedas com Nosso Site Educacional
-              </h5>
-              <p class="card-text">🔹 O que você encontrará no site:
-                Informações sobre criptomoedas como Bitcoin, Ethereum, Ripple e Litecoin.Gráficos em tempo real para
-                acompanhar as flutuações de preços das criptos mais populares.Níveis de ganhos com informações
-                detalhadas sobre depósitos e rendimentos em diferentes níveis de
-                investimento.Design responsivo : O site se adapta perfeitamente a qualquer dispositivo.
-                Interface interativa com gráficos atualizados de criptomoedas.Seção de login para acesso a ofertas e
-                promoções exclusivas.!</p>
-              <div class="video-container mb-3">
-                <iframe width="100%" height="200" src="criptoflow.mp4" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100" data-aos="zoom-in" data-aos-delay="800">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Fome Burguer - Delivery</h5>
+              <p class="card-text">Desenvolvimento de um website para delivery de hambúrgueres artesanais, com cardápio digital, sistema de pedidos online e foco na experiência do usuário.</p>
+              <div class="project-img-container mb-3">
+                <img src="fomeburguer.png" alt="Capa do projeto Fome Burguer" class="img-fluid project-cover-img">
               </div>
-              <a href="https://lucdev0001.github.io/criptoflow/" class="btn btn-primary">Ver Projeto</a>
+              <button class="btn btn-primary mt-auto project-btn" data-url="https://fomeburguer.com/">Ver Projeto</button>
             </div>
           </div>
         </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="container py-5" data-aos="fade-left">
-    <h2 class="section-title text-center">Habilidades</h2>
-    <div class="row">
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h5>HTML</h5>
-        <div class="skill-bar-container">
-          <div class="skill-bar">
-            <span class="skill-progress" style="width: 90%; background-color: #007bff;"></span>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100" data-aos="zoom-in" data-aos-delay="900">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">App MotoCash - Gestão de Ganhos</h5>
+              <p class="card-text">Um aplicativo intuitivo para motoboys controlarem seus ganhos, registrarem despesas e visualizarem o lucro semanal de forma simples e eficiente.</p>
+              <div class="project-img-container mb-3">
+                <img src="motocash.jpg" alt="Capa do projeto App MotoCash" class="img-fluid project-cover-img">
+              </div>
+              <button class="btn btn-primary mt-auto project-btn" data-url="https://appmotocash.netlify.app/">Ver Projeto</button>
+            </div>
           </div>
-          <div class="skill-percentage">90%</div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h5>CSS</h5>
-        <div class="skill-bar-container">
-          <div class="skill-bar">
-            <span class="skill-progress" style="width: 85%; background-color: #28a745;"></span>
-          </div>
-          <div class="skill-percentage">85%</div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h5>JavaScript</h5>
-        <div class="skill-bar-container">
-          <div class="skill-bar">
-            <span class="skill-progress" style="width: 80%; background-color: #ffc107;"></span>
-          </div>
-          <div class="skill-percentage">80%</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="bg-light py-5" data-aos="fade-right">
-    <h2 class="section-title">Contato</h2>
-    <div class="container text-center">
-      <p>Você pode me encontrar nas redes sociais ou me enviar uma mensagem diretamente através do e-mail.</p>
-      <!-- Redes Sociais -->
-      <section id="redes-sociais">
-        <div class="container">
-          <h2>Conecte-se comigo</h2>
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/lucianodev/" target="_blank" class="social-btn linkedin">
-              <i class="fab fa-linkedin-in"></i> LinkedIn
-            </a>
-            <a href="https://github.com/LucDev0001" target="_blank" class="social-btn github">
-              <i class="fab fa-github"></i> GitHub
-            </a>
-            <a href="https://www.instagram.com/lucianoo_severino22/" target="_blank" class="social-btn instagram">
-              <i class="fab fa-instagram"></i> Instagram
-            </a>
-          </div>
-        </div>
-      </section>
-      <p class="mt-3">Email: <strong>lucianosantosseverino@gmail.com</strong></p>
-    </div>
-  </section>
-
-  <!-- Botão do WhatsApp -->
-  <a href="#" class="whatsapp-btn" id="whatsapp-btn">
-    <i class="fab fa-whatsapp"></i>
-  </a>
-
-  <!-- Modal do Formulário -->
-  <div id="whatsappModal" class="modal">
+  <div id="projectModal" class="modal">
     <div class="modal-content">
-      <span id="closeModal" class="close">&times;</span>
-      <h2>Formulário de Contato</h2>
-      <form id="whatsappForm">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
-
-        <label for="servico">Tipo de Serviço:</label>
-        <input type="text" id="servico" name="servico" required>
-
-        <button type="submit">Enviar</button>
-      </form>
+      <span id="closeProjectModal" class="close">&times;</span>
+      <iframe id="projectIframe" src="" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
+  
+  <section id="skills" class="container py-5" data-aos="fade-left">
+    <h2 class="section-title text-center">Habilidades</h2>
+    <div class="row justify-content-center">
+      <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+        <i class="fab fa-html5 skill-icon" data-aos="flip-up" data-aos-delay="100"></i>
+        <p>HTML5</p>
+      </div>
+      <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+        <i class="fab fa-css3-alt skill-icon" data-aos="flip-up" data-aos-delay="200"></i>
+        <p>CSS3</p>
+      </div>
+      <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+        <i class="fab fa-js skill-icon" data-aos="flip-up" data-aos-delay="300"></i>
+        <p>JavaScript</p>
+      </div>
+      <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+        <i class="fab fa-java skill-icon" data-aos="flip-up" data-aos-delay="400"></i>
+        <p>Java</p>
+      </div>
+      <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+        <i class="fab fa-git-alt skill-icon" data-aos="flip-up" data-aos-delay="500"></i>
+        <p>Git</p>
+      </div>
+      <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+        <i class="fab fa-github skill-icon" data-aos="flip-up" data-aos-delay="600"></i>
+        <p>GitHub</p>
+      </div>
+    </div>
+  </section>
 
-
-  <!-- Footer -->
-  <footer class="footer">
-    <p>&copy; 2025 LucianoDev. Todos os direitos reservados.</p>
+  <footer class="footer py-5">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h5 class="footer-title">Navegação</h5>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h5 class="footer-title">Contato</h5>
+          <p class="mb-1">Email: lucianosantosseverino@gmail.com</p>
+          <p class="mb-0">WhatsApp: (21) 98385-6779</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="footer-title">Conecte-se</h5>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/lucianodev/" target="_blank" class="social-btn linkedin">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/LucDev0001" target="_blank" class="social-btn github">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/lucianoo_severino22/" target="_blank" class="social-btn instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="footer-divider my-4">
+      <p class="footer-copyright m-0">
+        &copy; <span id="current-year-full"></span> Luciano Severino. Todos os direitos reservados.
+      </p>
+    </div>
   </footer>
 
-  <!-- jQuery, Bootstrap 5 JS, AOS JS -->
+  <div class="whatsapp-container">
+    <div class="whatsapp-bubble">
+      Vamos conversar pelo WhatsApp?
+      <div class="whatsapp-bubble-arrow"></div>
+    </div>
+    <a href="#" class="whatsapp-btn" id="whatsapp-btn">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+<div id="whatsappModal" class="modal">
+  <div class="phone-frame">
+    <div class="whatsapp-chat-ui">
+      <div class="chat-header">
+        <div class="header-left">
+          <span class="back-arrow" id="closeModal"><i class="fas fa-arrow-left"></i></span>
+          <img src="profile.jpg" alt="Foto de Perfil" class="chat-profile-pic">
+          <div class="chat-details">
+            <span class="chat-name">Luciano Severino</span>
+            <span class="chat-status">online</span>
+          </div>
+        </div>
+        <div class="header-right">
+          <i class="fas fa-video"></i>
+          <i class="fas fa-phone"></i>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </div>
+
+      <div class="chat-body">
+        <div class="chat-background">
+          <div class="message-container">
+            <div class="message received">
+              <p>Olá, Luciano! Tudo bem? Vi seu portfólio e gostaria de saber mais sobre seu trabalho.</p>
+              <span class="message-time">10:30</span>
+            </div>
+            <div class="message sent">
+              <p>Olá! Fico feliz que tenha gostado. Como posso te ajudar?</p>
+              <span class="message-time">10:32 <i class="fas fa-check-double"></i></span>
+            </div>
+            <div class="chat-date-divider">HOJE</div>
+            <div class="message received">
+              <p>Tenho interesse em um projeto de desenvolvimento front-end. Você tem disponibilidade?</p>
+              <span class="message-time">10:35</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-footer">
+        <form id="whatsappForm">
+          <i class="far fa-smile"></i>
+          <input type="text" id="nome" name="nome" placeholder="Escreva uma mensagem..." required>
+          <input type="hidden" id="servico" name="servico" value="Contato pelo Portfólio"> 
+          
+          <button type="submit">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="script.js"></script>
 
-  <script src="js/script.js"></script>
 </body>
-
 </html>
