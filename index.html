@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Luciano Severino dos Santos - Desenvolvedor Full Stack</title>
+    <meta
+      name="description"
+      content="Portfólio de Luciano Severino dos Santos, Desenvolvedor Full Stack com foco em criar experiências digitais incríveis."
+    />
+    <meta
+      property="og:title"
+      content="Luciano Severino dos Santos - Desenvolvedor Full Stack"
+    />
+    <meta
+      property="og:description"
+      content="Portfólio de Luciano Severino dos Santos, Desenvolvedor Full Stack com foco em criar experiências digitais incríveis."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Luciano Severino dos Santos",
+        "url": "https://lucianodev.com.br",
+        "sameAs": [
+          "https://www.linkedin.com/in/lucianodev/",
+          "https://github.com/LucDev0001",
+          "https://www.instagram.com/lucianoo_severino22/"
+        ],
+        "jobTitle": "Desenvolvedor Full Stack"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "author": {
+          "@type": "Person",
+          "name": "Luciano Severino dos Santos"
+        },
+        "url": "https://lucianodev.com.br",
+        "name": "Portfólio de Luciano Severino dos Santos"
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 fill=%22currentColor%22 class=%22bi bi-gear-wide%22 viewBox=%220 0 16 16%22><path d=%22M8.932.727c-.243-.97-1.62-.97-1.864 0l-.071.286a.96.96 0 0 1-1.622.434l-.205-.211c-.695-.719-1.888-.03-1.613.931l.08.284a.96.96 0 0 1-1.186 1.187l-.284-.081c-.96-.275-1.65.918-.931 1.613l.211.205a.96.96 0 0 1-.434 1.622l-.286.071c-.97.243-.97 1.62 0 1.864l.286.071a.96.96 0 0 1 .434 1.622l-.211.205c-.719.695-.03 1.888.931 1.613l.284-.08a.96.96 0 0 1 1.187 1.187l-.081.283c-.275.96.918 1.65 1.613.931l.205-.211a.96.96 0 0 1 1.622.434l.071.286c.243.97 1.62.97 1.864 0l.071-.286a.96.96 0 0 1 1.622-.434l.205.211c.695.719 1.888.03 1.613-.931l-.08-.284a.96.96 0 0 1 1.187-1.187l.283.081c.96.275 1.65-.918.931-1.613l-.211-.205a.96.96 0 0 1 .434-1.622l.286-.071c.97-.243.97-1.62 0-1.864l-.286-.071a.96.96 0 0 1-.434-1.622l.211-.205c.719-.695.03-1.888-.931-1.613l-.284.08a.96.96 0 0 1-1.187-1.186l.081-.284c.275-.96-.918-1.65-1.613-.931l-.205.211a.96.96 0 0 1-1.622-.434zM8 12.997a4.998 4.998 0 1 1 0-9.995 4.998 4.998 0 0 1 0 9.996z%22/></svg>"
+    />
+  </head>
+  <body
+    class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300"
+  >
+    <nav
+      class="bg-white/90 dark:bg-gray-900/90 backdrop-blur-md p-4 shadow-md fixed w-full top-0 z-50 transition-all duration-300"
+    >
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold">Luciano Severino</a>
+        <div class="hidden md:flex items-center space-x-4">
+          <a href="#about" class="hover:text-blue-500 dark:hover:text-gray-400"
+            >Sobre</a
+          >
+          <a
+            href="#projects"
+            class="hover:text-blue-500 dark:hover:text-gray-400"
+            >Projetos</a
+          >
+          <a href="#skills" class="hover:text-blue-500 dark:hover:text-gray-400"
+            >Habilidades</a
+          >
+          <a
+            href="#certifications"
+            class="hover:text-blue-500 dark:hover:text-gray-400"
+            >Certificações</a
+          >
+          <a
+            href="#contact"
+            class="hover:text-blue-500 dark:hover:text-gray-400"
+            >Contato</a
+          >
+        </div>
+        <button id="mobile-menu-button" class="md:hidden">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <div id="mobile-menu" class="hidden md:hidden bg-white dark:bg-gray-900">
+        <a href="#about" class="block py-2 px-4 text-sm hover:bg-gray-700"
+          >Sobre</a
+        >
+        <a href="#projects" class="block py-2 px-4 text-sm hover:bg-gray-700"
+          >Projetos</a
+        >
+        <a href="#skills" class="block py-2 px-4 text-sm hover:bg-gray-700"
+          >Habilidades</a
+        >
+        <a
+          href="#certifications"
+          class="block py-2 px-4 text-sm hover:bg-gray-700"
+          >Certificações</a
+        >
+        <a href="#contact" class="block py-2 px-4 text-sm hover:bg-gray-700"
+          >Contato</a
+        >
+      </div>
+    </nav>
+
+    <header class="bg-gray-50 dark:bg-gray-900 text-center py-40">
+      <h1 class="text-5xl font-bold" data-aos="fade-down">
+        Olá, eu sou
+        <span
+          id="typed-text"
+          class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600"
+          >Luciano</span
+        >
+      </h1>
+      <p class="text-xl mt-4" data-aos="fade-up" data-aos-delay="200">
+        Desenvolvedor Full Stack focado em criar experiências digitais
+        incríveis.
+      </p>
+      <a
+        href="#projects"
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-8 inline-block"
+        data-aos="zoom-in"
+        data-aos-delay="400"
+        >Meus Projetos</a
+      >
+    </header>
+
+    <section
+      id="about"
+      class="bg-white dark:bg-gray-800 py-20 transition-colors duration-300"
+    >
+      <div
+        class="container mx-auto flex flex-col md:flex-row items-center"
+        data-aos="fade-right"
+      >
+        <div class="md:w-1/2">
+          <img
+            loading="lazy"
+            loading="lazy"
+            src="assets/img/profile.jpg"
+            alt="Foto do Desenvolvedor"
+            class="rounded-full mx-auto md:mx-0 w-64 h-64 object-cover"
+          />
+        </div>
+        <div class="md:w-1/2 mt-8 md:mt-0 text-center md:text-left">
+          <h2 class="text-4xl font-bold mb-4">Sobre Mim</h2>
+          <p class="text-lg">
+            Olá! Sou <strong>Luciano Severino Santos</strong>, um desenvolvedor
+            Full Stack apaixonado por criar experiências digitais intuitivas e
+            bonitas. Minha jornada na tecnologia começou com a transição de uma
+            carreira em gestão e atendimento ao cliente. Essa experiência me
+            ensinou a importância da comunicação e da resolução de problemas,
+            habilidades que hoje aplico na construção de soluções web.
+          </p>
+          <p class="text-lg mt-4">
+            Atualmente, sou estudante de Análise e Desenvolvimento de Sistemas.
+            Meus conhecimentos incluem <strong>HTML</strong>,
+            <strong>CSS</strong>, <strong>JavaScript</strong>,
+            <strong>PHP</strong>, <strong>Java (Spring Boot)</strong>,
+            <strong>MySQL</strong>, <strong>Git/GitHub</strong> e metodologias
+            ágeis. Estou sempre em busca de novos desafios para aplicar o que
+            sei e crescer como profissional.
+          </p>
+          <a
+            href="assets/data/CV - Luciano Severino dos Santos .docx"
+            download
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-8 inline-block"
+            >Download CV</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="py-20">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-down">
+          Meus Projetos
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project 1 -->
+          <div
+            class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-colors duration-300"
+            data-aos="fade-up"
+          >
+            <img
+              loading="lazy"
+              loading="lazy"
+              src="assets/img/suacausaaqui.png"
+              alt="SuaCausaAqui"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">SuaCausaAqui</h3>
+              <p class="text-lg mb-4">
+                Plataforma que conecta usuários a advogados especialistas em
+                diversas áreas.
+              </p>
+              <a
+                href="https://suacausaaqui.com/"
+                target="_blank"
+                class="text-blue-500 hover:underline"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div
+            class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-colors duration-300"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <img
+              loading="lazy"
+              loading="lazy"
+              src="assets/img/simulado.png"
+              alt="Portal do Simulado"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Portal do Simulado</h3>
+              <p class="text-lg mb-4">
+                Plataforma online que oferece simulados para preparar usuários
+                para provas oficiais.
+              </p>
+              <a
+                href="https://simuladoarraisemotonauta.online/"
+                target="_blank"
+                class="text-blue-500 hover:underline"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div
+            class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-colors duration-300"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <img
+              loading="lazy"
+              loading="lazy"
+              src="assets/img/gerarloren.png"
+              alt="Gerador de Lorem Ipsum"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Gerador de Lorem Ipsum</h3>
+              <p class="text-lg mb-4">
+                Uma ferramenta simples para gerar e copiar texto Lorem Ipsum.
+              </p>
+              <a
+                href="https://gerarloren.netlify.app/"
+                target="_blank"
+                class="text-blue-500 hover:underline"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <!-- Project 4 -->
+          <div
+            class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-colors duration-300"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <img
+              loading="lazy"
+              loading="lazy"
+              src="assets/img/motocash.png"
+              alt="MotoCash"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">MotoCash</h3>
+              <p class="text-lg mb-4">
+                Aplicativo de controle financeiro desenvolvido para motoboys e
+                entregadores.
+              </p>
+              <a
+                href="https://appmotocash.netlify.app/motoboy.html"
+                target="_blank"
+                class="text-blue-500 hover:underline"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <!-- Project 5 -->
+          <div
+            class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-colors duration-300"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <img
+              loading="lazy"
+              loading="lazy"
+              src="assets/img/cotacaoja.png"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">CotaçãoJá</h3>
+              <p class="text-lg mb-4">
+                Plataforma B2B que conecta gerentes de loja a fornecedores em
+                tempo real para cotação de produtos.
+              </p>
+              <a
+                href="https://cotacaoja.netlify.app/"
+                target="_blank"
+                class="text-blue-500 hover:underline"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <!-- Project 6 -->
+          <div
+            class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-colors duration-300"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <img
+              loading="lazy"
+              loading="lazy"
+              src="assets/img/elbrefrigeracao.png"
+              alt="Elb Refrigeração"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Elb Refrigeração</h3>
+              <p class="text-lg mb-4">
+                Site de serviços que oferece soluções completas em refrigeração.
+              </p>
+              <a
+                href="https://elbrefrigeracao.netlify.app/"
+                target="_blank"
+                class="text-blue-500 hover:underline"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="skills"
+      class="py-20 bg-white dark:bg-gray-800 transition-colors duration-300"
+    >
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-down">
+          Habilidades
+        </h2>
+        <div
+          class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 text-center"
+        >
+          <div class="flex flex-col items-center" data-aos="flip-up">
+            <i class="fab fa-html5 text-6xl text-orange-500"></i>
+            <p class="mt-2">HTML5</p>
+          </div>
+          <div
+            class="flex flex-col items-center"
+            data-aos="flip-up"
+            data-aos-delay="100"
+          >
+            <i class="fab fa-css3-alt text-6xl text-blue-500"></i>
+            <p class="mt-2">CSS3</p>
+          </div>
+          <div
+            class="flex flex-col items-center"
+            data-aos="flip-up"
+            data-aos-delay="200"
+          >
+            <i class="fab fa-js text-6xl text-yellow-500"></i>
+            <p class="mt-2">JavaScript</p>
+          </div>
+          <div
+            class="flex flex-col items-center"
+            data-aos="flip-up"
+            data-aos-delay="300"
+          >
+            <i class="fab fa-php text-6xl text-indigo-500"></i>
+            <p class="mt-2">PHP</p>
+          </div>
+          <div
+            class="flex flex-col items-center"
+            data-aos="flip-up"
+            data-aos-delay="400"
+          >
+            <i class="fab fa-java text-6xl text-red-500"></i>
+            <p class="mt-2">Java</p>
+          </div>
+          <div
+            class="flex flex-col items-center"
+            data-aos="flip-up"
+            data-aos-delay="500"
+          >
+            <i class="fas fa-database text-6xl text-blue-400"></i>
+            <p class="mt-2">MySQL</p>
+          </div>
+          <div
+            class="flex flex-col items-center"
+            data-aos="flip-up"
+            data-aos-delay="600"
+          >
+            <i class="fab fa-git-alt text-6xl text-orange-600"></i>
+            <p class="mt-2">Git</p>
+          </div>
+          <div
+            class="flex flex-col items-center"
+            data-aos="flip-up"
+            data-aos-delay="700"
+          >
+            <i class="fab fa-github text-6xl"></i>
+            <p class="mt-2">GitHub</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="certifications"
+      class="py-20 bg-white dark:bg-gray-800 transition-colors duration-300"
+    >
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-down">
+          Certificações
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Modelo de Card Otimizado (Repetir para todos os certificados) -->
+          <div
+            class="bg-gray-100 dark:bg-gray-700 rounded-lg p-6 flex flex-col items-center text-center hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            data-aos="zoom-in"
+          >
+            <i class="fas fa-file-pdf text-4xl text-red-500 mb-4"></i>
+            <h3 class="text-lg font-bold mb-4">Formação Alura</h3>
+            <a
+              href="certificacoes/Luciano Severino Dos Santos - Formação - Alura.pdf"
+              target="_blank"
+              class="text-blue-400 hover:text-blue-300 font-semibold"
+              >Ver Certificado</a
+            >
+          </div>
+
+          <div
+            class="bg-gray-100 dark:bg-gray-700 rounded-lg p-6 flex flex-col items-center text-center hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <i class="fas fa-file-pdf text-4xl text-red-500 mb-4"></i>
+            <h3 class="text-lg font-bold mb-4">Java e Orientação a Objetos</h3>
+            <a
+              href="certificacoes/Java e Orientação a Objetos T6 - ONE.pdf"
+              target="_blank"
+              class="text-blue-400 hover:text-blue-300 font-semibold"
+              >Ver Certificado</a
+            >
+          </div>
+
+          <div
+            class="bg-gray-100 dark:bg-gray-700 rounded-lg p-6 flex flex-col items-center text-center hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <i class="fas fa-file-pdf text-4xl text-red-500 mb-4"></i>
+            <h3 class="text-lg font-bold mb-4">Scrum Fundamentals</h3>
+            <a
+              href="certificacoes/ScrumFundamentalsCertified-LucianoSeverino-1105863.pdf"
+              target="_blank"
+              class="text-blue-400 hover:text-blue-300 font-semibold"
+              >Ver Certificado</a
+            >
+          </div>
+
+          <div
+            class="bg-gray-100 dark:bg-gray-700 rounded-lg p-6 flex flex-col items-center text-center hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
+            <i class="fas fa-file-pdf text-4xl text-red-500 mb-4"></i>
+            <h3 class="text-lg font-bold mb-4">Cybersecurity</h3>
+            <a
+              href="certificacoes/Introduction_to_Cybersecurity_Badge20240610-8-dvbylj.pdf"
+              target="_blank"
+              class="text-blue-400 hover:text-blue-300 font-semibold"
+              >Ver Certificado</a
+            >
+          </div>
+
+          <!-- Adicione os outros certificados seguindo este padrão para manter o site rápido -->
+          <div
+            class="bg-gray-100 dark:bg-gray-700 rounded-lg p-6 flex flex-col items-center text-center hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            data-aos="zoom-in"
+          >
+            <i class="fas fa-file-pdf text-4xl text-red-500 mb-4"></i>
+            <h3 class="text-lg font-bold mb-4">HTML e CSS</h3>
+            <a
+              href="certificacoes/Luciano Severino Dos Santos - Curso HTML e CSS_ ambientes de desenvolvimento, estrutura de arquivos e tags - Alura.PDF"
+              target="_blank"
+              class="text-blue-400 hover:text-blue-300 font-semibold"
+              >Ver Certificado</a
+            >
+          </div>
+
+          <div
+            class="bg-gray-100 dark:bg-gray-700 rounded-lg p-6 flex flex-col items-center text-center hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            data-aos="zoom-in"
+          >
+            <i class="fas fa-file-pdf text-4xl text-red-500 mb-4"></i>
+            <h3 class="text-lg font-bold mb-4">Git e GitHub</h3>
+            <a
+              href="certificacoes/Luciano Severino Dos Santos - Curso Git e GitHub_ compartilhando e colaborando em projetos - Alura.PDF"
+              target="_blank"
+              class="text-blue-400 hover:text-blue-300 font-semibold"
+              >Ver Certificado</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="contact"
+      class="py-20 bg-white dark:bg-gray-800 transition-colors duration-300"
+    >
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-down">
+          Contato
+        </h2>
+        <div class="max-w-lg mx-auto text-center">
+          <p class="text-lg mb-4">Gostou do meu trabalho? Vamos conversar!</p>
+          <form action="https://formspree.io/f/SEU_ID" method="post">
+            <div class="flex flex-col mb-4">
+              <label for="name" class="mb-2">Nome</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 focus:border-blue-500 focus:outline-none text-gray-900 dark:text-white"
+              />
+            </div>
+            <div class="flex flex-col mb-4">
+              <label for="email" class="mb-2">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 focus:border-blue-500 focus:outline-none text-gray-900 dark:text-white"
+              />
+            </div>
+            <div class="flex flex-col mb-4">
+              <label for="message" class="mb-2">Mensagem</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                class="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 focus:border-blue-500 focus:outline-none text-gray-900 dark:text-white"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-4 transition-colors"
+            >
+              Enviar
+            </button>
+          </form>
+          <p class="text-lg mt-8 mb-4">
+            Ou entre em contato pelas redes sociais:
+          </p>
+          <p class="text-lg">
+            WhatsApp:
+            <a
+              href="https://wa.me/5521983856779"
+              target="_blank"
+              class="text-accent hover:underline"
+              >(21) 98385-6779</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="bg-gray-100 dark:bg-gray-900 text-gray-600 dark:text-gray-400 py-8 border-t border-gray-200 dark:border-gray-800 transition-colors duration-300"
+    >
+      <div class="container mx-auto text-center">
+        <div class="flex justify-center space-x-6 mb-4">
+          <a
+            href="https://www.linkedin.com/in/lucianodev/"
+            target="_blank"
+            class="text-3xl hover:text-blue-500 transition-colors"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://github.com/LucDev0001"
+            target="_blank"
+            class="text-3xl hover:text-gray-200 transition-colors"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/lucianoo_severino22/"
+            target="_blank"
+            class="text-3xl hover:text-pink-500 transition-colors"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <p>
+          &copy; <span id="current-year-full"></span> Luciano Severino. Todos os
+          direitos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="assets/js/script.js"></script>
+    <a
+      href="https://wa.me/5521983856779"
+      target="_blank"
+      class="fixed bottom-4 right-4 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-full shadow-lg z-50"
+    >
+      <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+    <a
+      href="#"
+      id="back-to-top"
+      class="fixed bottom-16 right-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-full shadow-lg z-50 hidden"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </body>
+</html>
