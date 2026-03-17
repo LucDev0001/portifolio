@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Bloqueia acesso a arquivos desnecessários para bots
+Disallow: /assets/data/
+Disallow: /certificacoes/
+
+# Sitemap
+Sitemap: https://lucianodev.com.br/sitemap.xml
