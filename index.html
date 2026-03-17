@@ -1,33 +1,237 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Luciano Severino — Full Stack Developer</title>
-    <meta name="description" content="Portfólio de Luciano Severino dos Santos — Desenvolvedor Full Stack criando experiências digitais únicas e modernas." />
-    <meta property="og:title" content="Luciano Severino — Full Stack Developer" />
-    <meta property="og:description" content="Desenvolvedor Full Stack apaixonado por criar experiências digitais incríveis." />
+
+    <!-- ══════════════════════════════════════
+         PRIMARY SEO
+    ══════════════════════════════════════ -->
+    <title>Luciano Severino — Desenvolvedor Full Stack | Rio de Janeiro, RJ</title>
+    <meta name="description" content="Portfólio de Luciano Severino dos Santos, Desenvolvedor Full Stack no Rio de Janeiro. Especialista em HTML, CSS, JavaScript, Java, PHP e MySQL. 13+ projetos entregues. Disponível para freelance e oportunidades CLT." />
+    <meta name="keywords" content="desenvolvedor full stack, full stack developer, desenvolvedor web, programador Rio de Janeiro, HTML CSS JavaScript, Java Spring Boot, PHP MySQL, desenvolvimento web RJ, portfólio desenvolvedor, freelancer web, criação de sites, Luciano Severino, LucDev" />
+    <meta name="author" content="Luciano Severino dos Santos" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <link rel="canonical" href="https://lucianodev.com.br/" />
+
+    <!-- ══════════════════════════════════════
+         GEO & LOCALE
+    ══════════════════════════════════════ -->
+    <meta name="geo.region" content="BR-RJ" />
+    <meta name="geo.placename" content="Rio de Janeiro" />
+    <meta name="language" content="pt-BR" />
+    <meta name="content-language" content="pt-BR" />
+    <link rel="alternate" hreflang="pt-BR" href="https://lucianodev.com.br/" />
+    <link rel="alternate" hreflang="x-default" href="https://lucianodev.com.br/" />
+
+    <!-- ══════════════════════════════════════
+         OPEN GRAPH (Facebook, LinkedIn, WhatsApp…)
+    ══════════════════════════════════════ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lucianodev.com.br/" />
+    <meta property="og:site_name" content="Luciano Severino — Full Stack Developer" />
+    <meta property="og:title" content="Luciano Severino — Desenvolvedor Full Stack | Rio de Janeiro" />
+    <meta property="og:description" content="Desenvolvedor Full Stack apaixonado por criar experiências digitais únicas. 13+ projetos entregues. Especialista em JavaScript, Java, PHP e MySQL. Disponível para novos projetos." />
+    <meta property="og:image" content="https://lucianodev.com.br/assets/img/eunovo.png" />
+    <meta property="og:image:secure_url" content="https://lucianodev.com.br/assets/img/eunovo.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Luciano Severino — Desenvolvedor Full Stack" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- ══════════════════════════════════════
+         TWITTER CARD
+    ══════════════════════════════════════ -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Luciano Severino — Desenvolvedor Full Stack" />
+    <meta name="twitter:description" content="Desenvolvedor Full Stack no Rio de Janeiro. 13+ projetos entregues. HTML, CSS, JavaScript, Java, PHP, MySQL." />
+    <meta name="twitter:image" content="https://lucianodev.com.br/assets/img/eunovo.png" />
+    <meta name="twitter:image:alt" content="Luciano Severino — Full Stack Developer" />
+    <meta name="twitter:creator" content="@lucianoo_severino22" />
+
+    <!-- ══════════════════════════════════════
+         PWA / MOBILE / WINDOWS
+    ══════════════════════════════════════ -->
     <meta name="theme-color" content="#050508" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Luciano Dev" />
+    <meta name="application-name" content="Luciano Dev" />
+    <meta name="msapplication-TileColor" content="#050508" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- ══════════════════════════════════════
+         SCHEMA.ORG — PERSON
+    ══════════════════════════════════════ -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Luciano Severino dos Santos",
-        "url": "https://lucianodev.com.br",
-        "sameAs": [
-          "https://www.linkedin.com/in/lucianodev/",
-          "https://github.com/LucDev0001",
-          "https://www.instagram.com/lucianoo_severino22/"
-        ],
-        "jobTitle": "Desenvolvedor Full Stack"
-      }
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://lucianodev.com.br/#person",
+      "name": "Luciano Severino dos Santos",
+      "givenName": "Luciano",
+      "familyName": "Severino dos Santos",
+      "url": "https://lucianodev.com.br",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://lucianodev.com.br/assets/img/eunovo.png",
+        "width": 800,
+        "height": 800
+      },
+      "jobTitle": "Desenvolvedor Full Stack",
+      "description": "Desenvolvedor Full Stack apaixonado por criar experiências digitais únicas, baseado no Rio de Janeiro, Brasil.",
+      "nationality": { "@type": "Country", "name": "Brasil" },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Rio de Janeiro",
+        "addressRegion": "RJ",
+        "addressCountry": "BR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-21-98385-6779",
+        "contactType": "professional",
+        "availableLanguage": ["Portuguese", "English"]
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/lucianodev/",
+        "https://github.com/LucDev0001",
+        "https://www.instagram.com/lucianoo_severino22/"
+      ],
+      "knowsAbout": [
+        "HTML5", "CSS3", "JavaScript", "Java", "Spring Boot",
+        "PHP", "MySQL", "Git", "GitHub", "Desenvolvimento Web",
+        "Front-end Development", "Back-end Development", "Full Stack Development",
+        "Metodologia Scrum", "UI Design", "UX Design"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Desenvolvedor Full Stack",
+        "occupationLocation": {
+          "@type": "City",
+          "name": "Rio de Janeiro",
+          "sameAs": "https://www.wikidata.org/wiki/Q8678"
+        },
+        "skills": "HTML, CSS, JavaScript, Java, Spring Boot, PHP, MySQL, Git, GitHub, Scrum"
+      },
+      "alumniOf": [
+        { "@type": "Organization", "name": "Alura", "url": "https://www.alura.com.br" },
+        { "@type": "Organization", "name": "Oracle ONE — Next Education" }
+      ]
+    }
     </script>
 
-    <!-- Fonts -->
+    <!-- ══════════════════════════════════════
+         SCHEMA.ORG — WEBSITE
+    ══════════════════════════════════════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://lucianodev.com.br/#website",
+      "url": "https://lucianodev.com.br",
+      "name": "Luciano Severino — Full Stack Developer",
+      "description": "Portfólio profissional de Luciano Severino dos Santos, Desenvolvedor Full Stack no Rio de Janeiro.",
+      "author": { "@id": "https://lucianodev.com.br/#person" },
+      "inLanguage": "pt-BR",
+      "copyrightYear": "2025",
+      "copyrightHolder": { "@id": "https://lucianodev.com.br/#person" }
+    }
+    </script>
+
+    <!-- ══════════════════════════════════════
+         SCHEMA.ORG — WEBPAGE
+    ══════════════════════════════════════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://lucianodev.com.br/#webpage",
+      "url": "https://lucianodev.com.br",
+      "name": "Luciano Severino — Desenvolvedor Full Stack | Portfólio",
+      "description": "Portfólio profissional de Luciano Severino dos Santos, Desenvolvedor Full Stack no Rio de Janeiro com 13+ projetos entregues.",
+      "isPartOf": { "@id": "https://lucianodev.com.br/#website" },
+      "about": { "@id": "https://lucianodev.com.br/#person" },
+      "inLanguage": "pt-BR",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Portfólio — Luciano Severino",
+            "item": "https://lucianodev.com.br/"
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!-- ══════════════════════════════════════
+         SCHEMA.ORG — PROJECTS (ItemList)
+    ══════════════════════════════════════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Projetos de Luciano Severino dos Santos",
+      "description": "Projetos web desenvolvidos por Luciano Severino dos Santos — Desenvolvedor Full Stack",
+      "author": { "@id": "https://lucianodev.com.br/#person" },
+      "numberOfItems": 13,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1,  "name": "Decodificador de Texto",     "url": "https://decodificador-de-texto-blond.vercel.app/" },
+        { "@type": "ListItem", "position": 2,  "name": "YouTube A Bot",              "url": "https://youtubeabot.vercel.app/" },
+        { "@type": "ListItem", "position": 3,  "name": "Cora Eats",                  "url": "https://coraeats.vercel.app/" },
+        { "@type": "ListItem", "position": 4,  "name": "MotoCash",                   "url": "https://moto-cash.vercel.app/" },
+        { "@type": "ListItem", "position": 5,  "name": "ELB Refrigeração",           "url": "https://elbrefrigeracao.netlify.app/" },
+        { "@type": "ListItem", "position": 6,  "name": "Gerador Lorem Ipsum",        "url": "https://gerarloren.netlify.app/" },
+        { "@type": "ListItem", "position": 7,  "name": "CotaçãoJá",                 "url": "https://cotacaoja.netlify.app/" },
+        { "@type": "ListItem", "position": 8,  "name": "SeOrganiza",                 "url": "https://seorganiza.netlify.app/" },
+        { "@type": "ListItem", "position": 9,  "name": "Tijuca Guia",                "url": "https://tijucaguia.netlify.app/" },
+        { "@type": "ListItem", "position": 10, "name": "Calculadora",                "url": "https://calc-lucdev.netlify.app/" },
+        { "@type": "ListItem", "position": 11, "name": "HyperZ Community",           "url": "https://hyperzcommunity.com/" },
+        { "@type": "ListItem", "position": 12, "name": "Simulado Arraise Motonauta", "url": "https://simuladoarraisemotonauta.online/" },
+        { "@type": "ListItem", "position": 13, "name": "Fome Burguer",               "url": "https://fomeburguer.com/" }
+      ]
+    }
+    </script>
+
+    <!-- ══════════════════════════════════════
+         SCHEMA.ORG — PROFESSIONAL SERVICE
+    ══════════════════════════════════════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Luciano Severino — Desenvolvimento Web",
+      "url": "https://lucianodev.com.br",
+      "telephone": "+55-21-98385-6779",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Rio de Janeiro",
+        "addressRegion": "RJ",
+        "addressCountry": "BR"
+      },
+      "areaServed": { "@type": "Country", "name": "Brasil" },
+      "serviceType": ["Desenvolvimento Web", "Front-end", "Back-end", "Full Stack", "Sites e Landing Pages", "Sistemas Web"],
+      "provider": { "@id": "https://lucianodev.com.br/#person" }
+    }
+    </script>
+
+    <!-- ══════════════════════════════════════
+         PERFORMANCE — DNS / PRECONNECT
+    ══════════════════════════════════════ -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
     <!-- Icons -->
@@ -36,8 +240,11 @@
     <!-- AOS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 
-    <!-- Favicon -->
+    <!-- Favicons -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
 
     <style>
       /* ===== RESET & BASE ===== */
